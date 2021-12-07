@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_contact_types",
+  "info": {
+    "name": "contact_type",
+    "icon": "mail-bulk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "data": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

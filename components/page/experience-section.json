@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_experience_sections",
+  "info": {
+    "name": "experienceSection",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "experiences": {
+      "collection": "experience"
+    }
+  }
+}

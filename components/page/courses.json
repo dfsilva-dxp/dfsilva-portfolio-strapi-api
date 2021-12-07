@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_courses",
+  "info": {
+    "name": "courses",
+    "icon": "list-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "duration": {
+      "required": true,
+      "type": "integer"
+    }
+  }
+}

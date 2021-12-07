@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_languages",
+  "info": {
+    "name": "language",
+    "icon": "language"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_skills",
+  "info": {
+    "name": "skills",
+    "icon": "clipboard-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_contactuses",
+  "info": {
+    "name": "contactUs",
+    "icon": "phone-square-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "contact_type": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.contact-type"
+    }
+  }
+}
