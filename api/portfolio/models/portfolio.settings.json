@@ -26,6 +26,26 @@
       "type": "component",
       "repeatable": false,
       "component": "page.banner"
+    },
+    "experieceSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.experiece-section"
+    },
+    "educationSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.education-section"
+    },
+    "worksSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.works-section"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.contact"
     }
   }
 }

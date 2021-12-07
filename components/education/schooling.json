@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_education_schoolings",
+  "info": {
+    "name": "schooling",
+    "icon": "graduation-cap"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "course": {
+      "type": "string",
+      "required": true
+    },
+    "school": {
+      "type": "string"
+    }
+  }
+}

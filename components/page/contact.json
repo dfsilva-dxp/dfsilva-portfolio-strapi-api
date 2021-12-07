@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "phone-square-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "contactType": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.contact-type"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.social"
+    }
+  }
+}
