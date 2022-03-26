@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "short_description": {
+      "type": "string",
+      "required": true
+    },
+    "scroll_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
