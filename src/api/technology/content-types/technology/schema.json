@@ -23,7 +23,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::work.work",
-      "inversedBy": "technologies"
+      "mappedBy": "technologies"
     }
   }
 }

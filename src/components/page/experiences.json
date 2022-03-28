@@ -1,9 +1,8 @@
 {
   "collectionName": "components_page_experiences",
   "info": {
-    "displayName": "experience",
-    "icon": "network-wired",
-    "description": ""
+    "displayName": "experiences",
+    "icon": "clipboard-list"
   },
   "options": {},
   "attributes": {
@@ -11,9 +10,14 @@
       "type": "string",
       "required": true
     },
-    "subtitle": {
+    "description": {
       "type": "string",
       "required": true
+    },
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work"
     }
   }
 }

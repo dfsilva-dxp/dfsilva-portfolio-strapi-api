@@ -24,17 +24,17 @@
       "repeatable": false,
       "component": "page.about"
     },
-    "experience": {
-      "displayName": "experience",
-      "type": "component",
-      "repeatable": false,
-      "component": "page.experience"
-    },
     "contact": {
       "displayName": "contact",
       "type": "component",
       "repeatable": false,
       "component": "page.contact"
+    },
+    "experiences": {
+      "displayName": "experiences",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.experiences"
     }
   }
 }

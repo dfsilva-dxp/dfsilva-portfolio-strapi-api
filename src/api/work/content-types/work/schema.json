@@ -22,27 +22,20 @@
       "required": true
     },
     "description": {
-      "type": "string"
+      "type": "text",
+      "required": true
     },
-    "slide_media": {
+    "repositorie_url": {
+      "type": "string",
+      "required": true
+    },
+    "capa": {
       "type": "media",
       "multiple": false,
       "required": true,
       "allowedTypes": [
         "images"
       ]
-    },
-    "capa": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "repository_url": {
-      "type": "string",
-      "required": true
     },
     "technologies": {
       "type": "relation",
